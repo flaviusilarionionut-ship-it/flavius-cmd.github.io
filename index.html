@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flavius Ilarion | Vegas Pro Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleDescription(id) {
+            const el = document.getElementById(id);
+            el.style.display = el.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Flavius Ilarion</h1>
+    <p>Video Editor • Vegas Pro Specialist</p>
+    <span>Class 5B ITT – Aldo Moro High School</span>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>I am Flavius Ilarion, a passionate video editor specialized in Vegas Pro.</p>
+</section>
+
+<section>
+    <h2>Why Vegas Pro</h2>
+
+    <div class="feature" onclick="toggleDescription('timeline')">
+        Fast and intuitive timeline
+        <div id="timeline" class="description">
+            Vegas Pro offers a responsive timeline for fast and precise editing.
+        </div>
+    </div>
+
+    <div class="feature" onclick="toggleDescription('color')">
+        Professional color grading
+        <div id="color" class="description">
+            Advanced color correction tools for cinematic visuals.
+        </div>
+    </div>
+
+    <div class="feature" onclick="toggleDescription('audio')">
+        Advanced audio editing
+        <div id="audio" class="description">
+            High quality sound editing, synchronization, and noise control.
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>Video cutting & transitions</li>
+        <li>Color correction</li>
+        <li>Audio synchronization</li>
+        <li>Effects & titles</li>
+        <li>Storytelling</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <p>Gaming montages, cinematic edits, YouTube videos, and social media content.</p>
+</section>
+
+<footer>
+    <p>© 2026 Flavius Ilarion – Aldo Moro High School</p>
+</footer>
+
+</body>
+</html>
